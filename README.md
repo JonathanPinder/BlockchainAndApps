@@ -11,7 +11,7 @@ To run this program you must have Python 2.7 downloaded. Please see: https://www
 **IMPORTANT** Please keep a note of where your Python 2.7 download is if you don't keep the default option.
 
 If you downloaded Python 2.7 with default setting it is located in;
-    C:/python27/python.exe
+    `C:/python27/python.exe`
 
 
 
