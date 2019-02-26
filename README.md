@@ -28,6 +28,7 @@ If you downloaded Python 2.7 with default setting it is located in;
 3. You should now be in the directory with the downloaded files, Great!
 
 ###Solving Your first Problem
+
 *testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
 
 
