@@ -65,7 +65,9 @@ However, there is a salted hash *f0744d60dd500c92c0d37c16174cc58d3c4bdd8e* that 
 1. Ensure you are still in the cmd window from Step Four
 2. Type the following:
 `C:/python27/python.exe crackinghashes.py ece4bb07f2580ed8b39aa52b7f7f918e43033ea1 salted f0744d60dd500c92c0d37c16174cc58d3c4bdd8e`
-***IT IS VERY IMPORTANT THAT YOU REMEMBER THE SYNTAX FOR THIS PROGRAM `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`***
+
+***IT IS VERY IMPORTANT THAT YOU REMEMBER THE SYNTAX FOR THIS PROGRAM*** 
+`C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`
 
 
 
