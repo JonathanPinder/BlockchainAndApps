@@ -13,9 +13,9 @@ To run this program you must have Python 2.7 downloaded. Please see: https://www
 If you downloaded Python 2.7 with default setting it is located in;
     `C:/python27/python.exe`
     
-#Getting Started
+# Getting Started
 
-###Step One: Download the zipped file
+### Step One: Download the zipped file
 1. Click clone/download
 2. Select "Download ZIP"
 3. Locate where your zipped file is in your directory and unzip it, it should be called "BlockchainAndApps-master"
@@ -23,7 +23,7 @@ If you downloaded Python 2.7 with default setting it is located in;
 `C:\Users\{YOUR COMPUTER NAME}\Documents\LetsGetItCracking`
 5. For the duration of this tutorial ,we will assume that {YOUR COMPUTER NAME} is jpinder1
 
-###Step Two: Get it Cracking
+### Step Two: Get it Cracking
 1. Go to your command prompt, if you are on windows click the Windows button and type "cmd" and click enter
 2. type `"cd C:/Users/{YOUR COMPUTER NAME}/Documents/LetsGetItCracking/BlockchainAndApps-master"` and click enter
 3. You should now be in the directory with the downloaded files, Great!
@@ -33,7 +33,7 @@ If you downloaded Python 2.7 with default setting it is located in;
 7. definition of problem can be: hashonly, salted, or complex
 8. If there is no salted hash put "null"
 
-###Step Three: Solving Your first SHA-1 Hash
+### Step Three: Solving Your first SHA-1 Hash
 
 *testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
 1. Ensure you are still in your cmd window from Step Two
@@ -46,7 +46,7 @@ If you downloaded Python 2.7 with default setting it is located in;
 It only took 16 tries!
 It took0.1360661 seconds to complete!*
 
-###Step Four: Solving your second SHA-1 Hash
+### Step Four: Solving your second SHA-1 Hash
 
 *medium hacker hash:801cdea58224c921c21fd2b183ff28ffa910ce31*
 1. While still in the cmd window from Step Three
@@ -59,7 +59,7 @@ It took0.1360661 seconds to complete!*
 It only took 999968 tries!
 It took1.4036156 seconds to complete!*
 
-###Step Five: Solving your first salted Hash
+### Step Five: Solving your first salted Hash
 
 Here is the hash given: *ece4bb07f2580ed8b39aa52b7f7f918e43033ea1*
 
@@ -80,11 +80,11 @@ This is the hash for the password slayerharib
 It took 1546153 tries in total to solve the salt and hash!
 It took 2.2346888 seconds to complete!*
 
-#Updated Program to run Faster!
-###Step One: Getting Set Up
+# Updated Program to run Faster!
+### Step One: Getting Set Up
 1. You probably are expecting to download a separate program to see a faster implementation! Nope! You already have it downloaded.
 
-###Step Two: Solving Your first SHA-1 Hash, even faster
+### Step Two: Solving Your first SHA-1 Hash, even faster
 
 *testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
 1. Click on your Windows Button, and click type "cmd" and press enter.
@@ -97,7 +97,7 @@ It took 2.2346888 seconds to complete!*
 It only took 16 tries!
 It took0.1354586 seconds to complete!*
 
-###Step Three: Solving your second SHA-1 Hash, even faster
+### Step Three: Solving your second SHA-1 Hash, even faster
 
 *medium hacker hash:801cdea58224c921c21fd2b183ff28ffa910ce31*
 1. While still in the cmd window from Step Two
@@ -110,7 +110,7 @@ It took0.1354586 seconds to complete!*
 It only took 999968 tries!
 It took1.3768516 seconds to complete!*
 
-###Step Four: Solving your salted hash, much faster!
+### Step Four: Solving your salted hash, much faster!
 
 Here is the hash given: *ece4bb07f2580ed8b39aa52b7f7f918e43033ea1*
 
