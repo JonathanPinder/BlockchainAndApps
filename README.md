@@ -46,8 +46,8 @@ It took0.1360661 seconds to complete!*
 
 ###Step Four: Solving your second SHA-1 Hash
 
-* medium hacker hash:801cdea58224c921c21fd2b183ff28ffa910ce31*
-1. While still in the cmd Windows from Step Three
+*medium hacker hash:801cdea58224c921c21fd2b183ff28ffa910ce31*
+1. While still in the cmd window from Step Three
 2. Type the following
 `C:/python27/python.exe crackinghashes.py 801cdea58224c921c21fd2b183ff28ffa910ce31 hashonly null`
 3. Press Enter
@@ -55,6 +55,19 @@ It took0.1360661 seconds to complete!*
 *This is the hash for the password vjhtrhsvdctcegth
 It only took 999968 tries!
 It took1.4036156 seconds to complete!*
+
+###Step Five: Solving your first salted Hash
+
+Here is the hash given: *ece4bb07f2580ed8b39aa52b7f7f918e43033ea1*
+
+However, there is a salted hash *f0744d60dd500c92c0d37c16174cc58d3c4bdd8e* that is concatenated before hashing with another word to produce the final hash we are given: *ece4bb07f2580ed8b39aa52b7f7f918e43033ea1*. Here's how we'll solve it:
+
+1. Ensure you are still in the cmd window from Step Four
+2. Type the following:
+`C:/python27/python.exe crackinghashes.py ece4bb07f2580ed8b39aa52b7f7f918e43033ea1 salted f0744d60dd500c92c0d37c16174cc58d3c4bdd8e`
+***IT IS VERY IMPORTANT THAT YOU REMEMBER THE SYNTAX FOR THIS PROGRAM `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`***
+
+
 
 
 
