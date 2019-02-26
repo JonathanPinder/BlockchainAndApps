@@ -26,15 +26,16 @@ If you downloaded Python 2.7 with default setting it is located in;
 1. Go to your command prompt, if you are on windows click the Windows button and type "cmd" and click enter
 2. type `"cd C:/Users/{YOUR COMPUTER NAME}/Documents/LetsGetItCracking/BlockchainAndApps-master"` and click enter
 3. You should now be in the directory with the downloaded files, Great!
+4. You must run the program with Python 2.7
+5. You must specify the program to be ran (there are 2)
+6. The format for user input is `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`
+7. definition of problem can be: hashonly, salted, or complex
+8. If there is no salted hash put "null"
 
 ###Solving Your first SHA-1 Hash
 
 *testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
 
-Please note
-1.To run the program you must run it with Python 2.7
-2.You must specify the program to be ran (there are 2)
-3.The format for user input is `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}
 
 
 
