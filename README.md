@@ -12,6 +12,17 @@ To run this program you must have Python 2.7 downloaded. Please see: https://www
 
 If you downloaded Python 2.7 with default setting it is located in;
     `C:/python27/python.exe`
+    
+#Getting Started
+###Step One: Download the zipped file
+1. Click clone/download
+2. Select "Download ZIP"
+3. Locate where your zipped file is in your directory and unzip it, it should be called "BlockchainandApps-master"
+4. When asked where to extract the file put 
+`C:\Users\{YOUR COMPUTER NAME}\Documents\LetsGetItCracking`
+5. For the duration of this tutorial ,we will assume that {YOUR COMPUTER NAME} is jpinder1
+
+    
 
 
 
