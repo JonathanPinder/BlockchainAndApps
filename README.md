@@ -40,6 +40,7 @@ If you downloaded Python 2.7 with default setting it is located in;
 `C:/python27/python.exe crackinghashes.py b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3 hashonly null`
 3. Press Enter
 4. You should get the following output
+
 *This is the hash for the password letmein
 It only took 16 tries!
 It took0.1360661 seconds to complete!*
@@ -52,6 +53,7 @@ It took0.1360661 seconds to complete!*
 `C:/python27/python.exe crackinghashes.py 801cdea58224c921c21fd2b183ff28ffa910ce31 hashonly null`
 3. Press Enter
 4. You should get the follow output:
+
 *This is the hash for the password vjhtrhsvdctcegth
 It only took 999968 tries!
 It took1.4036156 seconds to complete!*
@@ -70,7 +72,8 @@ However, there is a salted hash *f0744d60dd500c92c0d37c16174cc58d3c4bdd8e* that 
 `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`
 
 3. Press Enter
-4. You should get the following output
+4. You should get the following output:
+
 *It took 217 tries to find the salted value slayer
 This is the hash for the password slayerharib
 It took 1546153 tries in total to solve the salt and hash!
@@ -88,6 +91,7 @@ It took 2.2346888 seconds to complete!*
 `C:/python27/python.exe crackthehash.py b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3 hashonly null`
 3. Press Enter
 4. You should get the following output:
+
 *This is the hash for the password letmein
 It only took 16 tries!
 It took0.1354586 seconds to complete!*
@@ -100,6 +104,7 @@ It took0.1354586 seconds to complete!*
 `C:/python27/python.exe crackthehash.py 801cdea58224c921c21fd2b183ff28ffa910ce31 hashonly null`
 3. Press Enter
 4. You should get the follow output:
+
 *This is the hash for the password vjhtrhsvdctcegth
 It only took 999968 tries!
 It took1.3768516 seconds to complete!*
@@ -119,6 +124,7 @@ However, there is a salted hash *f0744d60dd500c92c0d37c16174cc58d3c4bdd8e* that 
 
 3. Press Enter
 4. You should get the following output:
+
 *It took 217 tries to find the salted value slayer
 This is the hash for the password slayerharib
 It took 546371 tries in total to solve the salt and hash!
