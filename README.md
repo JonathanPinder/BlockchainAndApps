@@ -30,10 +30,11 @@ If you downloaded Python 2.7 with default setting it is located in;
 ###Solving Your first SHA-1 Hash
 
 *testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
+
 Please note 
-[x] To run the program you must run it with Python 2.7
-[x] You must specify the program to be ran (there are 2)
-[x] The format for user input is `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}
+-[x] To run the program you must run it with Python 2.7
+-[x] You must specify the program to be ran (there are 2)
+-[x] The format for user input is `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}
 
 
 
