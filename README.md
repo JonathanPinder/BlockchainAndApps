@@ -32,9 +32,29 @@ If you downloaded Python 2.7 with default setting it is located in;
 7. definition of problem can be: hashonly, salted, or complex
 8. If there is no salted hash put "null"
 
-###Solving Your first SHA-1 Hash
+###Step Three: Solving Your first SHA-1 Hash
 
 *testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
+1. Ensure you are still in your cmd window from Step Two
+2. Type the following
+`C:/python27/python.exe crackinghashes.py b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3 hashonly null`
+3. Press Enter
+4. You should get the following output
+*This is the hash for the password letmein
+It only took 16 tries!
+It took0.1360661 seconds to complete!*
+
+###Step Four: Solving your second SHA-1 Hash
+
+* medium hacker hash:801cdea58224c921c21fd2b183ff28ffa910ce31*
+1. While still in the cmd Windows from Step Three
+2. Type the following
+`C:/python27/python.exe crackinghashes.py 801cdea58224c921c21fd2b183ff28ffa910ce31 hashonly null`
+3. Press Enter
+4. You should get the follow output:
+*This is the hash for the password vjhtrhsvdctcegth
+It only took 999968 tries!
+It took1.4036156 seconds to complete!*
 
 
 
