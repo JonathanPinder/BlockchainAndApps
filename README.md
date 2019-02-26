@@ -14,6 +14,7 @@ If you downloaded Python 2.7 with default setting it is located in;
     `C:/python27/python.exe`
     
 #Getting Started
+
 ###Step One: Download the zipped file
 1. Click clone/download
 2. Select "Download ZIP"
