@@ -66,8 +66,63 @@ However, there is a salted hash *f0744d60dd500c92c0d37c16174cc58d3c4bdd8e* that 
 2. Type the following:
 `C:/python27/python.exe crackinghashes.py ece4bb07f2580ed8b39aa52b7f7f918e43033ea1 salted f0744d60dd500c92c0d37c16174cc58d3c4bdd8e`
 
-***IT IS VERY IMPORTANT THAT YOU REMEMBER THE SYNTAX FOR THIS PROGRAM*** 
+***IT IS VERY IMPORTANT THAT YOU USE THE SYNTAX FOR THIS PROGRAM*** 
 `C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`
+
+3. Press Enter
+4. You should get the following output
+*It took 217 tries to find the salted value slayer
+This is the hash for the password slayerharib
+It took 1546153 tries in total to solve the salt and hash!
+It took 2.2346888 seconds to complete!*
+
+#Updated Program to run Faster!
+###Step One: Getting Set Up
+1. You probably are expecting to download a separate program to see a faster implementation! Nope! You already have it downloaded.
+
+###Step Two: Solving Your first SHA-1 Hash, even faster
+
+*testing program hash: b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3*
+1. Click on your Windows Button, and click type "cmd" and press enter.
+2. Type the following
+`C:/python27/python.exe crackthehash.py b7a875fc1ea228b9061041b7cec4bd3c52ab3ce3 hashonly null`
+3. Press Enter
+4. You should get the following output:
+*This is the hash for the password letmein
+It only took 16 tries!
+It took0.1354586 seconds to complete!*
+
+###Step Three: Solving your second SHA-1 Hash, even faster
+
+*medium hacker hash:801cdea58224c921c21fd2b183ff28ffa910ce31*
+1. While still in the cmd window from Step Two
+2. Type the following
+`C:/python27/python.exe crackthehash.py 801cdea58224c921c21fd2b183ff28ffa910ce31 hashonly null`
+3. Press Enter
+4. You should get the follow output:
+*This is the hash for the password vjhtrhsvdctcegth
+It only took 999968 tries!
+It took1.3768516 seconds to complete!*
+
+###Step Four: Solving your salted hash, much faster!
+
+Here is the hash given: *ece4bb07f2580ed8b39aa52b7f7f918e43033ea1*
+
+However, there is a salted hash *f0744d60dd500c92c0d37c16174cc58d3c4bdd8e* that is concatenated before hashing with another word to produce the final hash we are given: *ece4bb07f2580ed8b39aa52b7f7f918e43033ea1*. Here's how we'll solve it:
+
+1. Ensure you are still in the cmd window from Step Three
+2. Type the following:
+`C:/python27/python.exe crackthehash.py ece4bb07f2580ed8b39aa52b7f7f918e43033ea1 salted f0744d60dd500c92c0d37c16174cc58d3c4bdd8e`
+
+***IT IS VERY IMPORTANT THAT YOU USE THE SYNTAX FOR THIS PROGRAM*** 
+`C:/python27/python.exe {program_name} {final_hash} {definition of problem} {salted_hash}`
+
+3. Press Enter
+4. You should get the following output:
+*It took 217 tries to find the salted value slayer
+This is the hash for the password slayerharib
+It took 546371 tries in total to solve the salt and hash!
+It took0.9029391 seconds!*
 
 
 
